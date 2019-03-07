@@ -23,6 +23,8 @@ def setup_package():
         url='https://github.com/gzzo/s3_pypi_publisher',
 
         packages=['s3_pypi_publisher'],
+        
+        package_data={'':['s3_pypi_publisher/templates/index.html.j2']}
 
         license='License :: OSI Approved :: Apache Software License 2.0 (Apache-2.0)',
 
