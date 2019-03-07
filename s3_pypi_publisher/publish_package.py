@@ -21,7 +21,7 @@ def get_package_name():
 
 
 def build_distributions():
-    cmd = ['/usr/bin/env', 'python', 'setup.py', 'bdist_wheel', 'sdist']
+    cmd = ['python3', 'setup.py', 'bdist_wheel', 'sdist']
 
     subprocess.check_call(cmd)
 
